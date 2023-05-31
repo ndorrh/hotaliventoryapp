@@ -1,0 +1,10 @@
+<h1>Welcome to {{ hotelName }}</h1>
+<div [hidden]="showRooms">
+  <h3>Number of rooms:</h3>
+  <p [innerText]="numberOfRoms"></p>
+</div>
+
+<div *ngIf="rooms.availableRooms > 0">
+  <h3>Available rooms: <span [innerText]="rooms.availableRooms"></span></h3>
+</div>
+<button (click)="increaseNumOfRooms()">Increase Num of Rooms</button>
