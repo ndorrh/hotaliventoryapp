@@ -109,7 +109,7 @@
       },
       "root": "projects/chat-app",
       "sourceRoot": "projects/chat-app/src",
-      "prefix": "app",
+      "prefix": "chatapp",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",

@@ -18,7 +18,7 @@ export class RoomsComponent {
 
   rooms: Rooms = {
     availableRooms: 20,
-    bookedRooms: 10,
+    bookedRooms: 5,
     totalRooms: 30
   }
 }
