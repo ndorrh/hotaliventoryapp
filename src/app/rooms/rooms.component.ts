@@ -30,7 +30,8 @@ export class RoomsComponent {
       price: 500,
       photos: 'https://media.istockphoto.com/id/627892060/photo/hotel-room-suite-with-view.jpg?s=612x612&w=0&k=20&c=YBwxnGH3MkOLLpBKCvWAD8F__T-ypznRUJ_N13Zb1cU=',
       checkInTime: new Date('11-Nov-2021'),
-      checkOutTime: new Date('12-Nov-2021')
+      checkOutTime: new Date('12-Nov-2021'),
+      rating: 4.5123567
     },
 
     {
@@ -40,7 +41,8 @@ export class RoomsComponent {
       price: 300,
       photos: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ_pR5qVHsfZbhKNr59kyzicSNBOHirtXKx6yRs66Y&s',
       checkInTime: new Date('01-Jun-2023'),
-      checkOutTime: new Date('12-Nov-2023')
+      checkOutTime: new Date('12-Nov-2023'),
+      rating: 4.235454657
     },
 
     {
@@ -50,7 +52,8 @@ export class RoomsComponent {
       price: 800,
       photos: 'https://st.depositphotos.com/3438085/4930/i/450/depositphotos_49309481-stock-photo-hotel-room.jpg',
       checkInTime: new Date('03-Jun-2023'),
-      checkOutTime: new Date('11-Nov-2023')
+      checkOutTime: new Date('11-Nov-2023'),
+      rating: 3.344567788
     },
 
     { 
@@ -60,7 +63,8 @@ export class RoomsComponent {
       price: 600,
       photos: 'https://media.cntraveler.com/photos/53da5aa96dec627b149e509d/master/w_320%2Cc_limit/royal-ethiad-suite-jumeirah-abu-dhabi-2.jpg',
       checkInTime: new Date('01-Jun-2023'),
-      checkOutTime: new Date('05-Nov-2023')
+      checkOutTime: new Date('05-Nov-2023'),
+      rating: 5.545667
     }
   ]
 }
