@@ -4,7 +4,9 @@
   <p [innerText]="numberOfRoms"></p>
 </div>
 
-<div *ngIf="rooms.availableRooms > 0">
+{{rooms?.availableRooms ?? "No rooms"}}
+
+<div *ngIf="rooms.availableRooms > 0 ">
   <h3>Available rooms: <span [innerText]="rooms.availableRooms"></span></h3>
 </div>
-<button (click)="increaseNumOfRooms()">Increase Num of Rooms</button>
+<button (click)="increaseNumOfRooms()">Toggle</button>

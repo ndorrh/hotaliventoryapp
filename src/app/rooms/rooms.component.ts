@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Rooms } from './rooms';
+import { RoomList, Rooms } from './rooms';
 
 @Component({
   selector: 'hinv-rooms',
@@ -21,4 +21,8 @@ export class RoomsComponent {
     bookedRooms: 5,
     totalRooms: 30
   }
+
+  newRomes: RoomList[] = [
+    
+  ]
 }
