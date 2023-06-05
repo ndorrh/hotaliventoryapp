@@ -10,7 +10,7 @@ export class RoomsComponent implements OnInit{
   roomList: RoomList[] = [];
 
   constructor() {}
-  
+
   ngOnInit(): void {
     this.roomList = [
       {
@@ -61,6 +61,7 @@ export class RoomsComponent implements OnInit{
 
   numberOfRoms: number = 10
   showRooms: boolean = false
+  selectedRooms: RoomList[] = [];
 
   increaseNumOfRooms(): void {
     this.showRooms = !this.showRooms
@@ -72,5 +73,10 @@ export class RoomsComponent implements OnInit{
     availableRooms: 20,
     bookedRooms: 5,
     totalRooms: 30
+  }
+
+  selectRoom(room: RoomList) {
+    console.log(room)
+    this.selectedRooms.push(room)
   }
 }

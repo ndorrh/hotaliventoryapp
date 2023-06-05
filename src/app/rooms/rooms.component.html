@@ -11,7 +11,12 @@
 
 {{rooms?.availableRooms ?? "No rooms"}}
 
+<div *ngIf="selectedRooms">
+  {{selectedRooms | json}}
+</div>
+
 <div *ngIf="rooms.availableRooms > 0 ">
-  <hinv-rooms-list [rooms]="roomList"></hinv-rooms-list>
+  <hinv-rooms-list [rooms]="roomList" (selectedRoom)="selectRoom($event)" ></hinv-rooms-list>
+  <!-- <button type="button" class="btn btn-danger">Select</button> -->
 </div>
 <button (click)="increaseNumOfRooms()" type="button" class="btn btn-primary">Toggle</button>
