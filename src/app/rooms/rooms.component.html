@@ -7,6 +7,6 @@
 {{rooms?.availableRooms ?? "No rooms"}}
 
 <div *ngIf="rooms.availableRooms > 0 ">
-  <h3>Available rooms: <span [innerText]="rooms.availableRooms"></span></h3>
+ <!-- {{roomList}} -->
 </div>
 <button (click)="increaseNumOfRooms()">Toggle</button>
