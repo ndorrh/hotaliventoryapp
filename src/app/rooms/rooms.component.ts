@@ -24,6 +24,7 @@ export class RoomsComponent {
 
   roomList: RoomList[] = [
     {
+      roomNumber: 1,
       roomType: 'Delux Room',
       amenities: 'Air Conditioner, Free Wi-Fi, Bathroom, Kitchen',
       price: 500,
@@ -33,6 +34,7 @@ export class RoomsComponent {
     },
 
     {
+      roomNumber: 2,
       roomType: 'Single Room',
       amenities: 'Air Conditioner, Free Wi-Fi, Bathroom, Kitchen',
       price: 300,
@@ -42,6 +44,7 @@ export class RoomsComponent {
     },
 
     {
+      roomNumber: 3,
       roomType: 'Suite',
       amenities: 'Air Conditioner, Free Wi-Fi, Bathroom, Kitchen, siting room',
       price: 800,
@@ -51,6 +54,7 @@ export class RoomsComponent {
     },
 
     { 
+      roomNumber: 4,
       roomType: 'Junior Suite',
       amenities: 'Air Conditioner, Free Wi-Fi, Bathroom, Kitchen, siting room',
       price: 600,
